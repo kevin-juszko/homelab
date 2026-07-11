@@ -7,12 +7,17 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 | Device | Specs | Role |
 |---|---|---|
 | PC1 | i7-12700K, RTX 3080 Ti, 32GB RAM | Windows daily driver / gaming |
-| PC2 | i7-9700, RTX 2060, 32GB RAM | Dev machine (Arch Linux) |
-| Raspberry Pi 5 | 8GB RAM | Home server |
+| PC2 | i7-9700, RTX 2060, 16GB RAM | Dev machine (Arch Linux) |
+| Raspberry Pi 5 | 8GB RAM | Navidrome Music Server, Media Streaming Box |
 | Xbox Series X | 4TB HDD | Gaming |
 | PS5 + Jailbroken PS5 | 4TB HDD| Gaming, private archival of owned disks |
 
 ![KVM Layout](docs/kvm-layout.png)
+
+
+#### KVM Setup
+- My KVM setup allows me to switch what controls my two monitors, keyboard, mouse, speakers, headphones, microphone, and any other peripherals. (Switch between PC1, PC2, PS5, Xbox). And the output of the kvm swith to monitor 1 is duplicated through a splitter and transmitted over ethernet (HDBaseT) to output on my TV. Resulting in me seamlessly switching from gaming on my monitor to my tv in another room. Or just sharing my main monitor to my tv.
+
 
 ## Audio
 
