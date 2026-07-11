@@ -11,16 +11,19 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 | Raspberry Pi 5 | 8GB | Home server |
 | Raspberry Pi Zero 2 W | — | Unused |
 
+![KVM Layout](docs/kvm-layout.svg)
+
 ## What's Running
 
 -**Ubuntu Server VM** Set up with QEMU, Libvirt, virt-manager, dnsmasq. Will contain python database.
 - **Ollama + qwen2.5-coder:7b** — local LLM for coding assistance
 - **Continue.dev** — VS Code extension connected to local LLM
 
+- **Tailscale mesh network** (Pi + PC2 + iPhone)
+- **Navidrome music server** on Pi
+
 ## In Progress
 
-- Tailscale mesh network (Pi + PC2 + iPhone)
-- Navidrome music server on Pi
 - Docker + Python dev stack on PC2
 
 ## Structure
