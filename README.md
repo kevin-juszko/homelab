@@ -11,7 +11,7 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 | Raspberry Pi 5 | 8GB | Home server |
 | Raspberry Pi Zero 2 W | — | Unused |
 
-![KVM Layout](docs/kvm-layout.svg)
+![KVM Layout](docs/kvm-layout.png)
 
 ## What's Running
 
