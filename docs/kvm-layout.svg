@@ -1,68 +1,82 @@
-<svg width="100%" viewBox="0 0 680 660" role="img">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg888
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    width="680"
+    height="660"
+    viewBox="0 0 680 660"
+    role="img">
 <title>Home lab KVM and network layout</title>
 <desc>KVM layout with revision 1 structure, updated content, extender in original column position.</desc>
 <defs>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <marker
+    id="arrow"
+    viewBox="0 0 10 10"
+    refX="8"
+    refY="5"
+    markerWidth="6"
+    markerHeight="6"
+    orient="auto">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#EF9F27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
   </marker>
 </defs>
 
 <!-- OFFICE container -->
 <rect x="14" y="10" width="462" height="440" rx="16" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="6 4"/>
-<text font-size="12" font-family="sans-serif" x="28" y="28" fill="#EF9F27">Office</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="28" y="28" fill="#EF9F27">Office</text>
 
 <!-- PC1 -->
 <rect x="26" y="40" width="130" height="72" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="91" y="60" text-anchor="middle" dominant-baseline="central" fill="#0C447C">PC1</text>
-<text font-size="12" font-family="sans-serif" x="91" y="78" text-anchor="middle" dominant-baseline="central" fill="#185FA5">i7-12700K · RTX 3080 Ti</text>
-<text font-size="12" font-family="sans-serif" x="91" y="96" text-anchor="middle" dominant-baseline="central" fill="#185FA5">Windows 11</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="60" text-anchor="middle" dominant-baseline="middle" fill="#0C447C">PC1</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="91" y="78" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">i7-12700K · RTX 3080 Ti</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="91" y="96" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">Windows 11</text>
 
 <!-- PC2 outer -->
 <rect x="26" y="124" width="130" height="124" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="91" y="144" text-anchor="middle" dominant-baseline="central" fill="#0C447C">PC2</text>
-<text font-size="12" font-family="sans-serif" x="91" y="162" text-anchor="middle" dominant-baseline="central" fill="#185FA5">i7-9700 · RTX 2060</text>
-<text font-size="12" font-family="sans-serif" x="91" y="180" text-anchor="middle" dominant-baseline="central" fill="#185FA5">Arch Linux</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="144" text-anchor="middle" dominant-baseline="middle" fill="#0C447C">PC2</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="91" y="162" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">i7-9700 · RTX 2060</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="91" y="180" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">Arch Linux</text>
 <!-- Ubuntu VM nested -->
 <rect x="38" y="192" width="106" height="44" rx="6" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-<text font-size="12" font-weight="500" font-family="sans-serif" x="91" y="208" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Ubuntu Server VM</text>
-<text font-size="11" font-family="sans-serif" x="91" y="226" text-anchor="middle" dominant-baseline="central" fill="#534AB7">KVM / QEMU</text>
+<text font-size="12" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="208" text-anchor="middle" dominant-baseline="middle" fill="#3C3489">Ubuntu Server VM</text>
+<text font-size="11" font-family="Arial, Helvetica, sans-serif" x="91" y="226" text-anchor="middle" dominant-baseline="middle" fill="#534AB7">KVM / QEMU</text>
 
 <!-- Xbox -->
 <rect x="26" y="260" width="130" height="44" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="91" y="285" text-anchor="middle" dominant-baseline="central" fill="#085041">Xbox Series X</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="285" text-anchor="middle" dominant-baseline="middle" fill="#085041">Xbox Series X</text>
 
 <!-- PS5 -->
 <rect x="26" y="318" width="130" height="44" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="91" y="343" text-anchor="middle" dominant-baseline="central" fill="#085041">PlayStation 5</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="343" text-anchor="middle" dominant-baseline="middle" fill="#085041">PlayStation 5</text>
 
 <!-- HDMI Switch -->
 <rect x="26" y="376" width="130" height="52" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="91" y="394" text-anchor="middle" dominant-baseline="central" fill="#444441">HDMI switch</text>
-<text font-size="12" font-family="sans-serif" x="91" y="412" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">consoles only</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="91" y="394" text-anchor="middle" dominant-baseline="middle" fill="#444441">HDMI switch</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="91" y="412" text-anchor="middle" dominant-baseline="middle" fill="#5F5E5A">consoles only</text>
 
 <!-- KVM Switch -->
 <rect x="194" y="218" width="140" height="52" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="264" y="238" text-anchor="middle" dominant-baseline="central" fill="#3C3489">KVM switch</text>
-<text font-size="12" font-family="sans-serif" x="264" y="256" text-anchor="middle" dominant-baseline="central" fill="#534AB7">3×3 (USB + HDMI)</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="264" y="238" text-anchor="middle" dominant-baseline="middle" fill="#3C3489">KVM switch</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="264" y="256" text-anchor="middle" dominant-baseline="middle" fill="#534AB7">3×3 (USB + HDMI)</text>
 
 <!-- Monitor 1 -->
 <rect x="356" y="82" width="90" height="52" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="401" y="102" text-anchor="middle" dominant-baseline="central" fill="#444441">Monitor 1</text>
-<text font-size="12" font-family="sans-serif" x="401" y="120" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">HDMI out</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="401" y="102" text-anchor="middle" dominant-baseline="middle" fill="#444441">Monitor 1</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="401" y="120" text-anchor="middle" dominant-baseline="middle" fill="#5F5E5A">HDMI out</text>
 
 <!-- Monitor 2 -->
 <rect x="356" y="148" width="90" height="52" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="401" y="168" text-anchor="middle" dominant-baseline="central" fill="#444441">Monitor 2</text>
-<text font-size="12" font-family="sans-serif" x="401" y="186" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">HDMI out</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="401" y="168" text-anchor="middle" dominant-baseline="middle" fill="#444441">Monitor 2</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="401" y="186" text-anchor="middle" dominant-baseline="middle" fill="#5F5E5A">HDMI out</text>
 
 <!-- KB/Mouse -->
 <rect x="356" y="214" width="90" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="401" y="230" text-anchor="middle" dominant-baseline="central" fill="#444441">KB / Mouse</text>
-<text font-size="12" font-family="sans-serif" x="401" y="248" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">USB</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="401" y="230" text-anchor="middle" dominant-baseline="middle" fill="#444441">KB / Mouse</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="401" y="248" text-anchor="middle" dominant-baseline="middle" fill="#5F5E5A">USB</text>
 
 <!-- KVM Extender -->
 <rect x="356" y="272" width="90" height="44" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="401" y="298" text-anchor="middle" dominant-baseline="central" fill="#633806">KVM extender</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="401" y="298" text-anchor="middle" dominant-baseline="middle" fill="#633806">KVM extender</text>
 
 <!-- PC1 to KVM -->
 <line x1="156" y1="76" x2="194" y2="236" stroke="#EF9F27" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -90,17 +104,17 @@
 
 <!-- LIVING ROOM container -->
 <rect x="490" y="10" width="178" height="220" rx="16" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="6 4"/>
-<text font-size="12" font-family="sans-serif" x="504" y="28" fill="#EF9F27">Living room</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="504" y="28" fill="#EF9F27">Living room</text>
 
 <!-- TV -->
 <rect x="504" y="40" width="150" height="44" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="579" y="65" text-anchor="middle" dominant-baseline="central" fill="#444441">TV</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="579" y="65" text-anchor="middle" dominant-baseline="middle" fill="#444441">TV</text>
 
 <!-- Pi 5 -->
 <rect x="496" y="106" width="162" height="106" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="577" y="128" text-anchor="middle" dominant-baseline="central" fill="#712B13">Raspberry Pi 5</text>
-<text font-size="12" font-family="sans-serif" x="577" y="150" text-anchor="middle" dominant-baseline="central" fill="#993C1D">Navidrome Music Server</text>
-<text font-size="12" font-family="sans-serif" x="577" y="170" text-anchor="middle" dominant-baseline="central" fill="#993C1D">Streaming / Media box</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="577" y="128" text-anchor="middle" dominant-baseline="middle" fill="#712B13">Raspberry Pi 5</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="577" y="150" text-anchor="middle" dominant-baseline="middle" fill="#993C1D">Navidrome Music Server</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="577" y="170" text-anchor="middle" dominant-baseline="middle" fill="#993C1D">Streaming / Media box</text>
 
 <!-- KVM extender to TV -->
 <path d="M446 294 L470 294 L470 62 L504 62" fill="none" stroke="#EF9F27" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -109,25 +123,25 @@
 
 <!-- SSH SECTION -->
 <rect x="14" y="464" width="652" height="180" rx="16" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="6 4"/>
-<text font-size="12" font-family="sans-serif" x="28" y="482" fill="#EF9F27">SSH (Tailscale / local network)</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="28" y="482" fill="#EF9F27">SSH (Tailscale / local network)</text>
 
 <!-- Ubuntu VM SSH -->
 <rect x="28" y="494" width="178" height="136" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="117" y="520" text-anchor="middle" dominant-baseline="central" fill="#0C447C">Ubuntu Server VM</text>
-<text font-size="12" font-family="sans-serif" x="117" y="544" text-anchor="middle" dominant-baseline="central" fill="#185FA5">Python</text>
-<text font-size="12" font-family="sans-serif" x="117" y="564" text-anchor="middle" dominant-baseline="central" fill="#185FA5">Database</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="117" y="520" text-anchor="middle" dominant-baseline="middle" fill="#0C447C">Ubuntu Server VM</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="117" y="544" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">Python</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="117" y="564" text-anchor="middle" dominant-baseline="middle" fill="#185FA5">Database</text>
 
 <!-- Pi SSH -->
 <rect x="240" y="494" width="178" height="136" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="329" y="520" text-anchor="middle" dominant-baseline="central" fill="#712B13">Raspberry Pi 5</text>
-<text font-size="12" font-family="sans-serif" x="329" y="544" text-anchor="middle" dominant-baseline="central" fill="#993C1D">Navidrome</text>
-<text font-size="12" font-family="sans-serif" x="329" y="564" text-anchor="middle" dominant-baseline="central" fill="#993C1D">Music Server</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="329" y="520" text-anchor="middle" dominant-baseline="middle" fill="#712B13">Raspberry Pi 5</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="329" y="544" text-anchor="middle" dominant-baseline="middle" fill="#993C1D">Navidrome</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="329" y="564" text-anchor="middle" dominant-baseline="middle" fill="#993C1D">Music Server</text>
 
 <!-- VS Code Remote -->
 <rect x="452" y="494" width="200" height="136" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
-<text font-size="14" font-weight="500" font-family="sans-serif" x="552" y="520" text-anchor="middle" dominant-baseline="central" fill="#3C3489">VS Code Remote-SSH</text>
-<text font-size="12" font-family="sans-serif" x="552" y="544" text-anchor="middle" dominant-baseline="central" fill="#534AB7">Arch PC</text>
-<text font-size="12" font-family="sans-serif" x="552" y="564" text-anchor="middle" dominant-baseline="central" fill="#534AB7">→ Ubuntu VM</text>
+<text font-size="14" font-weight="500" font-family="Arial, Helvetica, sans-serif" x="552" y="520" text-anchor="middle" dominant-baseline="middle" fill="#3C3489">VS Code Remote-SSH</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="552" y="544" text-anchor="middle" dominant-baseline="middle" fill="#534AB7">Arch PC</text>
+<text font-size="12" font-family="Arial, Helvetica, sans-serif" x="552" y="564" text-anchor="middle" dominant-baseline="middle" fill="#534AB7">→ Ubuntu VM</text>
 
 <!-- SSH connector lines -->
 <line x1="117" y1="464" x2="117" y2="494" stroke="#EF9F27" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
