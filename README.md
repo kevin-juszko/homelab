@@ -10,7 +10,7 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 | PC2 | i7-9700, RTX 2060, 16GB RAM | Dev machine (Arch Linux) |
 | Raspberry Pi 5 | 8GB RAM | Navidrome Music Server, Media Streaming Box |
 | Xbox Series X | 4TB HDD | Gaming |
-| PS5 + Jailbroken PS5 | 4TB HDD| Gaming, private archival of owned disks |
+| PS5 | 4TB HDD| Gaming |
 
 ![KVM Layout](docs/kvm-layout.png)
 

@@ -32,8 +32,8 @@
   - Pi 5 as exit node
   - iPhone as client (will probably add laptop too)
   - Allows remote access to use SSH and Navidrome streaming
-  > [!WARNING]
-  > SSH passkey still enabled even after disabling in configs. "PasskeyAuthentication no". Found a second instance of this variable in another config (Cloud-Init) that was overriding this.
+> [!WARNING]
+> SSH passkey still enabled even after disabling in configs. "PasskeyAuthentication no". Found a second instance of this variable in another config (Cloud-Init) that was overriding this.
 
 #### Self-Hosting (Raspberry Pi 5)
 - Navidrome music streaming server
