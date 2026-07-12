@@ -50,3 +50,5 @@
 
 #### Portfolio
 - Created this homelab GitHub repository
+
+### See [README.md](README.md) for main portfolio page.

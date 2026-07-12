@@ -29,12 +29,12 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 
 ## What's Running
 
--**Ubuntu Server VM** Set up with QEMU, Libvirt, virt-manager, dnsmasq. Will contain python database.
-- **Ollama + qwen2.5-coder:7b** — local LLM for coding assistance
-- **Continue.dev** — VS Code extension connected to local LLM
+-**Ubuntu Server VM** Set up with QEMU, Libvirt, virt-manager, dnsmasq. Foundation for Python, SQL, and database learning before Azure deployment.
+- **Ollama + qwen2.5-coder:7b** — local LLM for coding assistance (limited compared to claude, but free).
+- **Continue.dev** — VS Code extension connected to local LLM (allows direct AI integration with VS Code).
 
-- **Tailscale mesh network** (Pi + PC2 + iPhone)
-- **Navidrome music server** on Pi
+- **Tailscale mesh network** (Raspberry Pi + PC2 + iPhone)
+- **Navidrome music server** on Raspberry Pi
 
 ## In Progress
 
@@ -53,3 +53,5 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 
 - **Set up Azure accounts.** Once python database is ready on ubserver, deploy to Azure.
 - **Rice** (heavily customize) Arch install
+
+### See [progress-log.md](progress-log.md) for detailed setup logs and decisions.
