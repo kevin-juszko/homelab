@@ -10,13 +10,23 @@
 - **Learned virtual environments as a concept.** Meaning: a folder containing a private copy of the Python interpreter and an isolated place to install packages so you do not interfere with the system copy of python.
 - VM filestructure for .py project: `/home/ajgos/projects/first-python/service_log.py`
 - Learned **f-strings** allow you to place variables inside of a string.
-        ````python
-        tech = "bob"
-        cust = "dan"
+    ```python
+    tech = "bob"
+    cust = "dan"
 
-        message = f"{tech} is working with {cust}"
+    message = f"{tech} is working for {cust}"
 
-        print(message)````
+    print(message)
+    ```
+- Refresh on key coding concepts, and learn python's version of them.
+    - Functions
+        ```python
+        def service_message(tech, customer):
+        return f"{tech} is working with {customer}"
+        ```
+    -Scope, passing in variables on function call.
+    - if, else, elif
+    
 
 #### Python Basics
 
