@@ -2,7 +2,25 @@
 
 ## July 2026
 
-### Week 1
+## Week 1:
+
+### <b>Day 2 (? hours):</b>
+
+- Create a virtual environment (venv) on the vm. `~/projects/first-python`
+- **Learned virtual environments as a concept.** Meaning: a folder containing a private copy of the Python interpreter and an isolated place to install packages so you do not interfere with the system copy of python.
+- VM filestructure for .py project: `/home/ajgos/projects/first-python/service_log.py`
+- Learned **f-strings** allow you to place variables inside of a string.
+        ````python
+        tech = "bob"
+        cust = "dan"
+
+        message = f"{tech} is working with {cust}"
+
+        print(message)````
+
+#### Python Basics
+
+### <b>Day 1 (8 hours):</b>
 
 #### Initial Decisions
 - Chose to add 1TB HDD for ubuntu server VM instead of sharing an SSD and HDD between the Arch install and VM using a LV (logical volume).
@@ -10,6 +28,7 @@
 - I chose a VM instead of a old laptop for a server so it can have access to more power, and be easily managed from the Arch host. Also it lets me learn virtulization, and network passthrough.
 - Arch PC will also be used for Wii and other game emulation.
 - Chose to use VS Code due to Azure support.
+- Decided to not autostart server so RAM isn't always used up.
 
 #### Dev Environment (PC2 - Arch Linux)
 - Set up QEMU with Ubuntu Server 24.04 LTS VM

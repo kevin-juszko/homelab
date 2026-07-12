@@ -18,7 +18,6 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 #### KVM Setup
 - My KVM setup allows me to switch what controls my two monitors, keyboard, mouse, speakers, headphones, microphone, and any other peripherals. (Switch between PC1, PC2, PS5, Xbox). And the output of the kvm swith to monitor 1 is duplicated through a splitter and transmitted over ethernet (HDBaseT) to output on my TV. Resulting in me seamlessly switching from gaming on my monitor to my tv in another room. Or just sharing my main monitor to my tv.
 
-
 ## Audio
 
 | Device | Role |
@@ -49,6 +48,7 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 
 ## To Do:
 - Take free bootcamps on **Git, SQL, Python, Azure.**
+- Microsoft Learn's AZ-900 path, SQL practice platforms like Mode's SQL tutorial or SQLZoo, freeCodeCamp's Python or SQL curriculum.
 - Ask for **sample/test data.** Use AI (qwen) to generate and fill a fake version of the database for me to learn how to organize and query.
 
 - **Set up Azure accounts.** Once python database is ready on ubserver, deploy to Azure.
