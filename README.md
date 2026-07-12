@@ -48,6 +48,8 @@ Personal homelab documentation - networking, self-hosting, virtulization, python
 - `progress-log.md` — running log of work completed
 
 ## To Do:
+- Take free bootcamps on Git, SQL, Python, Azure.
+- Ask for sample/test data. Use AI (qwen) to generate and fill a fake version of the database for me to learn how to organize and query.
 
 - **Set up Azure accounts.** Once python database is ready on ubserver, deploy to Azure.
 - **Rice** (heavily customize) Arch install
