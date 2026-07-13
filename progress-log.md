@@ -4,7 +4,7 @@
 
 ## Week 1:
 
-### <b>Day 2 (? hours):</b>
+### <b>Day 2 (2 hours):</b>
 
 - Create a virtual environment (venv) on the vm. `~/projects/first-python`
 - **Learned virtual environments as a concept.** Meaning: a folder containing a private copy of the Python interpreter and an isolated place to install packages so you do not interfere with the system copy of python.
